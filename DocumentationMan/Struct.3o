@@ -1,0 +1,108 @@
+.TH "Struct" 3 2014-12-31 OCamldoc ""
+.SH NAME
+Struct \- Fonction creer le tas de fibo le renvoi accompagné de l'octet seperateur de fichier
+.SH Module
+Module   Struct
+.SH Documentation
+.sp
+Module
+.BI "Struct"
+ : 
+.B sig  end
+
+.sp
+Fonction creer le tas de fibo le renvoi accompagné de l\&'octet seperateur de fichier
+
+.sp
+
+.sp
+.sp
+.I type 
+.B 'a
+.I tree 
+=
+ | Feuille
+.B of 
+.B 'a
+ | Node
+.B of 
+.B int * 'a tree * 'a tree
+ 
+.sp
+
+.sp
+.I type heap 
+
+.sp
+
+.sp
+
+.I val creerTasFibo 
+: 
+.B (int * int) array -> int -> heap * int
+.sp
+Fonction creer le tas de fibo le renvoi accompagné de l\&'octet seperateur de fichier
+
+.sp
+
+.I val extract_min 
+: 
+.B heap -> int
+.sp
+Fonction recupere le minimum du tas et retire ces connexion
+
+.sp
+
+.I val inserting_node2 
+: 
+.B heap -> int -> (int * int) tree -> unit
+.sp
+Fonction a inserting_node sauf qu\&'elle remet a 0 les connexion
+
+.sp
+
+.I val recupKey_val 
+: 
+.B heap -> int -> (int * int) tree
+.sp
+
+.sp
+
+.I val length_tas 
+: 
+.B heap -> int
+.sp
+
+.sp
+
+.I val entasserMinTas 
+: 
+.B ('a * int) tree array -> int -> int -> ('a * int) tree array
+.sp
+Fonction entasser Min des tas
+
+.sp
+
+.I val extractionMinTas 
+: 
+.B ('a * int) tree array -> int -> ('a * int) tree
+.sp
+Fonction extraction Min des tas
+
+.sp
+
+.I val extractionMinTas2 
+: 
+.B 'a array -> int -> 'a
+.sp
+Fonction extraction Min des tas sans réinjecter le dernier element au début pour laisser une place a la somme
+
+.sp
+
+.I val creerTas 
+: 
+.B (int * int) array -> int -> (int * int) tree array * int
+.sp
+Fonction de creation des tas
+
+.sp

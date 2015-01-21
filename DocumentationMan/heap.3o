@@ -1,0 +1,11 @@
+.TH "heap" 3 2014-12-31 OCamldoc ""
+.SH NAME
+heap \- all heap elements
+
+
+.SH Module Struct
+.I type heap 
+
+.sp
+
+.sp

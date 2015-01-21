@@ -1,0 +1,14 @@
+.TH "extractionMinTas" 3 2014-12-31 OCamldoc ""
+.SH NAME
+extractionMinTas \- all extractionMinTas elements
+
+
+.SH Module Struct
+
+.I val extractionMinTas 
+: 
+.B ('a * int) tree array -> int -> ('a * int) tree
+.sp
+Fonction extraction Min des tas
+
+.sp

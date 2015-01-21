@@ -1,0 +1,98 @@
+.TH "Bitio" 3 2014-12-31 OCamldoc ""
+.SH NAME
+Bitio \- no description
+.SH Module
+Module   Bitio
+.SH Documentation
+.sp
+Module
+.BI "Bitio"
+ : 
+.B sig  end
+
+.sp
+
+.sp
+
+.sp
+.sp
+.I type bit_in_channel 
+
+.sp
+
+.sp
+.I type bit_out_channel 
+
+.sp
+
+.sp
+
+.I val open_in_bit 
+: 
+.B string -> bit_in_channel
+.sp
+
+.sp
+
+.I val open_out_bit 
+: 
+.B string -> bit_out_channel
+.sp
+
+.sp
+
+.I val input_bit 
+: 
+.B bit_in_channel -> int
+.sp
+
+.sp
+
+.I val input_bit_byte 
+: 
+.B bit_in_channel -> int
+.sp
+
+.sp
+
+.I val input_align_bit 
+: 
+.B bit_in_channel -> unit
+.sp
+
+.sp
+
+.I val output_bit 
+: 
+.B bit_out_channel -> int -> unit
+.sp
+
+.sp
+
+.I val output_bit_byte 
+: 
+.B bit_out_channel -> int -> unit
+.sp
+
+.sp
+
+.I val output_align_bit 
+: 
+.B bit_out_channel -> unit
+.sp
+
+.sp
+
+.I val close_in_bit 
+: 
+.B bit_in_channel -> unit
+.sp
+
+.sp
+
+.I val close_out_bit 
+: 
+.B bit_out_channel -> unit
+.sp
+
+.sp

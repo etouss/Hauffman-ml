@@ -1,0 +1,13 @@
+.TH "length_tas" 3 2014-12-31 OCamldoc ""
+.SH NAME
+length_tas \- all length_tas elements
+
+
+.SH Module Struct
+
+.I val length_tas 
+: 
+.B heap -> int
+.sp
+
+.sp

@@ -1,0 +1,35 @@
+.TH "Compression" 3 2014-12-31 OCamldoc ""
+.SH NAME
+Compression \- Créer un tableau contenant l'ensemble des char possible et le EOF (tuple pour stocker les frequences et le char)
+.SH Module
+Module   Compression
+.SH Documentation
+.sp
+Module
+.BI "Compression"
+ : 
+.B sig  end
+
+.sp
+Créer un tableau contenant l\&'ensemble des char possible et le EOF
+(tuple pour stocker les frequences et le char)
+
+.sp
+
+.sp
+.sp
+
+.I val compression 
+: 
+.B string -> unit
+.sp
+
+.sp
+
+.I exception SystemFileFailComp 
+.B of 
+.B string
+
+.sp
+
+.sp

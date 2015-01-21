@@ -1,0 +1,14 @@
+.TH "SystemFileFailComp" 3 2014-12-31 OCamldoc ""
+.SH NAME
+SystemFileFailComp \- all SystemFileFailComp elements
+
+
+.SH Module Compression
+
+.I exception SystemFileFailComp 
+.B of 
+.B string
+
+.sp
+
+.sp

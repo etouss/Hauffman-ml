@@ -1,0 +1,14 @@
+.TH "extractionMinTas2" 3 2014-12-31 OCamldoc ""
+.SH NAME
+extractionMinTas2 \- all extractionMinTas2 elements
+
+
+.SH Module Struct
+
+.I val extractionMinTas2 
+: 
+.B 'a array -> int -> 'a
+.sp
+Fonction extraction Min des tas sans réinjecter le dernier element au début pour laisser une place a la somme
+
+.sp

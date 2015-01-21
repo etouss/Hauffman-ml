@@ -1,0 +1,14 @@
+.TH "creerTas" 3 2014-12-31 OCamldoc ""
+.SH NAME
+creerTas \- all creerTas elements
+
+
+.SH Module Struct
+
+.I val creerTas 
+: 
+.B (int * int) array -> int -> (int * int) tree array * int
+.sp
+Fonction de creation des tas
+
+.sp

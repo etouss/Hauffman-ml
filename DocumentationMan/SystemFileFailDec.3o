@@ -1,0 +1,14 @@
+.TH "SystemFileFailDec" 3 2014-12-31 OCamldoc ""
+.SH NAME
+SystemFileFailDec \- all SystemFileFailDec elements
+
+
+.SH Module Decompression
+
+.I exception SystemFileFailDec 
+.B of 
+.B string
+
+.sp
+
+.sp

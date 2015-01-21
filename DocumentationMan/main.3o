@@ -1,0 +1,32 @@
+.TH "Main" 3 2014-12-31 OCamldoc ""
+.SH NAME
+Main \- no description
+.SH Module
+Module   Main
+.SH Documentation
+.sp
+Module
+.BI "Main"
+ : 
+.B sig  end
+
+.sp
+
+.sp
+
+.sp
+.sp
+
+.I val end_withHF 
+: 
+.B string -> bool
+.sp
+
+.sp
+
+.I val main 
+: 
+.B 'a
+.sp
+
+.sp

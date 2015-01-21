@@ -1,0 +1,35 @@
+.TH "Decompression" 3 2014-12-31 OCamldoc ""
+.SH NAME
+Decompression \- Fonction decodant une archive file en utilisant les presedante
+.SH Module
+Module   Decompression
+.SH Documentation
+.sp
+Module
+.BI "Decompression"
+ : 
+.B sig  end
+
+.sp
+Fonction decodant une archive file en utilisant les presedante
+
+.sp
+
+.sp
+.sp
+
+.I val decompression 
+: 
+.B string -> unit
+.sp
+Fonction decodant une archive file en utilisant les presedante
+
+.sp
+
+.I exception SystemFileFailDec 
+.B of 
+.B string
+
+.sp
+
+.sp

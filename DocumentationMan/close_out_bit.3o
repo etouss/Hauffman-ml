@@ -1,0 +1,13 @@
+.TH "close_out_bit" 3 2014-12-31 OCamldoc ""
+.SH NAME
+close_out_bit \- all close_out_bit elements
+
+
+.SH Module Bitio
+
+.I val close_out_bit 
+: 
+.B bit_out_channel -> unit
+.sp
+
+.sp

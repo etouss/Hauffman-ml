@@ -1,0 +1,13 @@
+.TH "end_withHF" 3 2014-12-31 OCamldoc ""
+.SH NAME
+end_withHF \- all end_withHF elements
+
+
+.SH Module Main
+
+.I val end_withHF 
+: 
+.B string -> bool
+.sp
+
+.sp

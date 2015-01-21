@@ -1,0 +1,14 @@
+.TH "inserting_node2" 3 2014-12-31 OCamldoc ""
+.SH NAME
+inserting_node2 \- all inserting_node2 elements
+
+
+.SH Module Struct
+
+.I val inserting_node2 
+: 
+.B heap -> int -> (int * int) tree -> unit
+.sp
+Fonction a inserting_node sauf qu\&'elle remet a 0 les connexion
+
+.sp

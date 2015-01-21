@@ -1,0 +1,13 @@
+.TH "output_align_bit" 3 2014-12-31 OCamldoc ""
+.SH NAME
+output_align_bit \- all output_align_bit elements
+
+
+.SH Module Bitio
+
+.I val output_align_bit 
+: 
+.B bit_out_channel -> unit
+.sp
+
+.sp

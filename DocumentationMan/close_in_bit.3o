@@ -1,0 +1,13 @@
+.TH "close_in_bit" 3 2014-12-31 OCamldoc ""
+.SH NAME
+close_in_bit \- all close_in_bit elements
+
+
+.SH Module Bitio
+
+.I val close_in_bit 
+: 
+.B bit_in_channel -> unit
+.sp
+
+.sp

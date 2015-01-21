@@ -1,0 +1,13 @@
+.TH "output_bit_byte" 3 2014-12-31 OCamldoc ""
+.SH NAME
+output_bit_byte \- all output_bit_byte elements
+
+
+.SH Module Bitio
+
+.I val output_bit_byte 
+: 
+.B bit_out_channel -> int -> unit
+.sp
+
+.sp

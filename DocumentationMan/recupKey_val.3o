@@ -1,0 +1,13 @@
+.TH "recupKey_val" 3 2014-12-31 OCamldoc ""
+.SH NAME
+recupKey_val \- all recupKey_val elements
+
+
+.SH Module Struct
+
+.I val recupKey_val 
+: 
+.B heap -> int -> (int * int) tree
+.sp
+
+.sp

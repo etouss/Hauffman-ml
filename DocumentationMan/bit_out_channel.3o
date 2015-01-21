@@ -1,0 +1,11 @@
+.TH "bit_out_channel" 3 2014-12-31 OCamldoc ""
+.SH NAME
+bit_out_channel \- all bit_out_channel elements
+
+
+.SH Module Bitio
+.I type bit_out_channel 
+
+.sp
+
+.sp

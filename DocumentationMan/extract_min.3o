@@ -1,0 +1,14 @@
+.TH "extract_min" 3 2014-12-31 OCamldoc ""
+.SH NAME
+extract_min \- all extract_min elements
+
+
+.SH Module Struct
+
+.I val extract_min 
+: 
+.B heap -> int
+.sp
+Fonction recupere le minimum du tas et retire ces connexion
+
+.sp

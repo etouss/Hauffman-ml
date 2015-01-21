@@ -1,0 +1,12 @@
+.TH "Feuille" 3 2014-12-31 OCamldoc ""
+.SH NAME
+Feuille \- all Feuille elements
+
+
+.SH Type Struct.tree
+.I Feuille of 
+.B 'a0
+
+.sp
+
+.sp

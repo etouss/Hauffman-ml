@@ -1,0 +1,14 @@
+.TH "creerTasFibo" 3 2014-12-31 OCamldoc ""
+.SH NAME
+creerTasFibo \- all creerTasFibo elements
+
+
+.SH Module Struct
+
+.I val creerTasFibo 
+: 
+.B (int * int) array -> int -> heap * int
+.sp
+Fonction creer le tas de fibo le renvoi accompagné de l\&'octet seperateur de fichier
+
+.sp

@@ -1,0 +1,13 @@
+.TH "open_out_bit" 3 2014-12-31 OCamldoc ""
+.SH NAME
+open_out_bit \- all open_out_bit elements
+
+
+.SH Module Bitio
+
+.I val open_out_bit 
+: 
+.B string -> bit_out_channel
+.sp
+
+.sp

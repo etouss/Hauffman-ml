@@ -1,0 +1,14 @@
+.TH "entasserMinTas" 3 2014-12-31 OCamldoc ""
+.SH NAME
+entasserMinTas \- all entasserMinTas elements
+
+
+.SH Module Struct
+
+.I val entasserMinTas 
+: 
+.B ('a * int) tree array -> int -> int -> ('a * int) tree array
+.sp
+Fonction entasser Min des tas
+
+.sp

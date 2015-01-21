@@ -1,0 +1,20 @@
+.TH "tree" 3 2014-12-31 OCamldoc ""
+.SH NAME
+tree \- all tree elements
+
+
+.SH Module Struct
+.I type 
+.B 'a
+.I tree 
+=
+ | Feuille
+.B of 
+.B 'a
+ | Node
+.B of 
+.B int * 'a tree * 'a tree
+ 
+.sp
+
+.sp

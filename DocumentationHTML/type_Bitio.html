@@ -1,0 +1,29 @@
+<html><head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<link rel="Start" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Bitio" rel="Chapter" href="Bitio.html">
+<link title="Compression" rel="Chapter" href="Compression.html">
+<link title="Decompression" rel="Chapter" href="Decompression.html">
+<link title="Struct" rel="Chapter" href="Struct.html">
+<link title="Main" rel="Chapter" href="Main.html"><title>Bitio</title>
+</head>
+<body>
+<code class="code"><span class="keyword">sig</span><br>
+&nbsp;&nbsp;<span class="keyword">type</span>&nbsp;bit_in_channel<br>
+&nbsp;&nbsp;<span class="keyword">type</span>&nbsp;bit_out_channel<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;open_in_bit&nbsp;:&nbsp;string&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">Bitio</span>.bit_in_channel<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;open_out_bit&nbsp;:&nbsp;string&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">Bitio</span>.bit_out_channel<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;input_bit&nbsp;:&nbsp;<span class="constructor">Bitio</span>.bit_in_channel&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;input_bit_byte&nbsp;:&nbsp;<span class="constructor">Bitio</span>.bit_in_channel&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;input_align_bit&nbsp;:&nbsp;<span class="constructor">Bitio</span>.bit_in_channel&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;unit<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;output_bit&nbsp;:&nbsp;<span class="constructor">Bitio</span>.bit_out_channel&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;unit<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;output_bit_byte&nbsp;:&nbsp;<span class="constructor">Bitio</span>.bit_out_channel&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;unit<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;output_align_bit&nbsp;:&nbsp;<span class="constructor">Bitio</span>.bit_out_channel&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;unit<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;close_in_bit&nbsp;:&nbsp;<span class="constructor">Bitio</span>.bit_in_channel&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;unit<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;close_out_bit&nbsp;:&nbsp;<span class="constructor">Bitio</span>.bit_out_channel&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;unit<br>
+<span class="keyword">end</span></code></body></html>
