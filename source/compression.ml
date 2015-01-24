@@ -9,7 +9,7 @@ exception SystemFileFailComp of string;;
 
 (** Créer un tableau contenant l'ensemble des char possible et le EOF
 (tuple pour stocker les frequences et le char) *)
-let init () = let f i (x,y) = (i,y) in mapi f (Array.make 257 (0,0));;
+let init () = let f i (x,y) = (i,y) in Array.mapi f (Array.make 257 (0,0));;
 
 (** Fonction qui prend en argument deux arbre et renvoie la somme de la frequence de deux arbre *)
 let somme a b = match a,b with
